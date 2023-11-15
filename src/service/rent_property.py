@@ -3,7 +3,7 @@ import openai
 import json 
 import time 
 import logging
-from openai.error import RateLimitError
+from openai import RateLimitError
 from helpers.config import rent_data_path
 from helpers.function_descriptions import rent_property_function_descriptions
 from helpers.prompt_templates import rent_system_prompt
@@ -18,38 +18,42 @@ class RentingService:
     def reply_to_rent_inquiries(self, user_input):
         self.messages.append({'role': 'user', 'content': user_input})
 
-        try:
-            response = get_completion_from_messages(self.messages, rent_property_function_descriptions)
+        response = get_completion_from_messages(self.messages, rent_property_function_descriptions)
 
-            if response.get('function_call'):
-                function_called = response['function_call']['name']
-                if function_called == "get_house_info":
-                    function_args = json.loads(response['function_call']['arguments'])
+        if response.get('function_call'):
+            function_called = response['function_call']['name']
+            if function_called == "get_house_info":
+                function_args = json.loads(response['function_call']['arguments'])
 
-                    available_functions = {
-                        "get_house_info": find_n_property_rent,
-                    }
+                available_functions = {
+                    "get_house_info": find_n_property_rent,
+                }
+                try:
                     function_to_call = available_functions[function_called]
                     response = function_to_call(**function_args, service_type="Rent")
+                except Exception as ex:
+                    logging.error(f"Function Calling Error(find n property rent): {ex}")
+                    response = error_handling(ex)
 
-                elif function_called == "get_user_info":
-                    function_args = json.loads(response['function_call']['arguments'])
+            elif function_called == "get_user_info":
+                function_args = json.loads(response['function_call']['arguments'])
 
-                    available_functions = {
-                        "get_user_info": get_user_info,
-                    }
+                available_functions = {
+                    "get_user_info": get_user_info,
+                }
+                try:
                     function_to_call = available_functions[function_called]
                     string_result = function_to_call(**function_args, messages=self.messages)
                     response = confirm_user_info(string_result)
+                except:
+                    logging.error(f"Function Calling Error(confirm user info): {ex}")
+                    response = error_handling(ex)
 
-                else:
-                    response = "Unexpected behavior"
             else:
-                response = response["content"]
+                response = "Unexpected behavior"
+        else:
+            response = response["content"]
 
-            self.messages.append({'role': 'assistant', 'content': response})
-            return response
+        self.messages.append({'role': 'assistant', 'content': response})
+        return response
 
-        except RateLimitError as ex:
-            logging.error(f"Rate Limit Error: {ex}")
-            error_handling(ex)

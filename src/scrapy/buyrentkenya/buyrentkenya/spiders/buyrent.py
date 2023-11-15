@@ -1,6 +1,9 @@
 import scrapy
-from buyrentkenya.items import BrParentItem, BrChildItem
+import sys
+
+from ..items import BrParentItem, BrChildItem
 from scrapy.loader import ItemLoader
+
 
 
 class BuyrentSpider(scrapy.Spider):
@@ -50,24 +53,3 @@ class BuyrentSpider(scrapy.Spider):
         merged_item = {**parent_item.load_item(), **child_item.load_item()}
         yield merged_item            
 
-def main():
-    from scrapy.crawler import CrawlerProcess
-    from scrapy.utils.project import get_project_settings
-
-    # Create a CrawlerProcess
-    process = CrawlerProcess(get_project_settings())
-
-    # Add the GlorealtorsSpider to the process
-    process.crawl(BuyrentSpider)
-
-    # Start the crawling process
-    process.start()
-
-    # Access the spider instance and get the output file name
-    spider = process.spider_loader.load("buyrent")
-    output_file = spider.settings.get("FEED_URI", "/home/koleshjr/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data/buy_rent.csv")
-
-    print(f"Scraping completed. Results saved to {output_file}")
-
-if __name__ == "__main__":
-    main()

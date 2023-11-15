@@ -1,11 +1,11 @@
 import os 
-import openai 
 import time 
 import pandas as pd 
 import json 
 import logging
 import requests
-from openai.error import RateLimitError
+from openai import OpenAI
+from openai import RateLimitError
 from dotenv import load_dotenv
 from helpers.config import record_data_path, glo_data_path, buy_rent_path
 from helpers.prompt_templates import property_all_template, property_not_all_template, user_details_confirmation_prompt, house_details_confirmation_prompt, extract_user_query_prompt
@@ -14,8 +14,9 @@ from helpers.prompt_templates import property_all_template, property_not_all_tem
 def load_openai_model():
     """ Prepare OpenAI model for use """
     load_dotenv()
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    return openai
+    client = OpenAI(
+        api_key = os.getenv("OPENAI_API_KEY"))
+    return client
 
 def get_completion_from_messages(
         messages: list ,
@@ -27,7 +28,7 @@ def get_completion_from_messages(
     openai = load_openai_model()
     for i in range(3):
         try:
-            response = openai.Completion.create(
+            response = openai.chat.completions.create(
                 model = model,
                 messages = messages,
                 temperature = temperature,
@@ -39,6 +40,8 @@ def get_completion_from_messages(
             #log this error using logger 
             logging.error(f"RateLimitError: {e}")
             time.sleep(5)
+            if i == 2:
+                return {"content": "Thank you for visiting Glo realtors assistant. We are sorry for the inconvenience. Please try again later."}
 
 def parse_query_results(prompt: str, model: str = "gpt-3.5-turbo-1106"):
     """ Summarize conversation """
@@ -56,6 +59,8 @@ def parse_query_results(prompt: str, model: str = "gpt-3.5-turbo-1106"):
             #log this error using logger 
             logging.error(f"RateLimitError: {e}")
             time.sleep(5)
+            if i == 2:
+                return {"content": "We are sorry for the inconvenience. Please try again later."}
 
 def extract_user_query(messages: list):
     """ Extract key details from a list of messages """
@@ -159,6 +164,8 @@ def error_handling(exception: Exception):
         return "Thank you for visiting Glo realtors website. We are sorry for the inconvenience. Please try again later."
     elif "missing" and "required positional argument" in str(exception).lower():
         return "Looks like you have not provided all the required information."
+    elif "'NoneType' object has no attribute 'get'" in str(exception):
+        return "Thank you for visiting Glo realtors website. We are sorry for the inconvenience. Please try again later."
     else:
         pass
 

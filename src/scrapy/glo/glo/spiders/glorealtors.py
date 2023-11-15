@@ -1,6 +1,8 @@
 import scrapy
-from glo.items import GloParentItem, GloChildItem
+from glo.glo.items import GloParentItem, GloChildItem
 from scrapy.loader import ItemLoader
+
+
 
 class GlorealtorsSpider(scrapy.Spider):
     name = "glorealtors"
@@ -41,25 +43,3 @@ class GlorealtorsSpider(scrapy.Spider):
         merged_item = {**parent_item, **child_item.load_item()}
         yield merged_item
 
-
-def main():
-    from scrapy.crawler import CrawlerProcess
-    from scrapy.utils.project import get_project_settings
-
-    # Create a CrawlerProcess
-    process = CrawlerProcess(get_project_settings())
-
-    # Add the GlorealtorsSpider to the process
-    process.crawl(GlorealtorsSpider)
-
-    # Start the crawling process
-    process.start()
-
-    # Access the spider instance and get the output file name
-    spider = process.spider_loader.load("glorealtors")
-    output_file = spider.settings.get("FEED_URI", "/home/koleshjr/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data/glo.csv")
-
-    print(f"Scraping completed. Results saved to {output_file}")
-
-if __name__ == "__main__":
-    main()

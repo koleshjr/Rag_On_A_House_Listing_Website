@@ -13,7 +13,7 @@ def hello():
     return {"message": "Welcome to the listing property service!"}
 
 @router.post("/process_query", status_code = 200)
-def buy_property(user_input: str):
+def list_property(user_input: str):
     try:
         response = service.reply_to_list_property_inquiries(user_input)
         return {"message": response}
