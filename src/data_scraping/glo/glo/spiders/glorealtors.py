@@ -1,8 +1,19 @@
+import sys
+import os
+
+# Get the parent directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.join(current_dir, '..')
+
+# Add the parent directory to sys.path
+sys.path.append(parent_dir)
+
+
 import scrapy
-from glo.glo.items import GloParentItem, GloChildItem
+from items import GloParentItem, GloChildItem
 from scrapy.loader import ItemLoader
-
-
+from scrapy.settings import Settings
+from scrapy.crawler import CrawlerProcess
 
 class GlorealtorsSpider(scrapy.Spider):
     name = "glorealtors"
@@ -43,3 +54,29 @@ class GlorealtorsSpider(scrapy.Spider):
         merged_item = {**parent_item, **child_item.load_item()}
         yield merged_item
 
+def main():
+    # # Get the parent directory of the current script
+    # current_dir = os.path.dirname(os.path.abspath(__file__))
+    # parent_dir = os.path.join(current_dir, '..')
+
+    # # Add the parent directory to sys.path
+    # sys.path.append(parent_dir)
+
+    # # Specify the output file path
+    home_path = os.path.expanduser("~")
+    output_file_path = f"{home_path}/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data/outputs.csv"
+
+    # Set up Scrapy settings
+    settings = Settings()
+    settings.set('FEEDS', {output_file_path: {'format': 'csv'}})
+
+    # Create a CrawlerProcess with project settings
+    process = CrawlerProcess(settings)
+
+    # Run the spider
+    process.crawl(GlorealtorsSpider)
+    process.start()       
+
+
+if __name__ == "__main__":
+    main() 

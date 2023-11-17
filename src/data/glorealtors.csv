@@ -67,3 +67,225 @@ https://glorealtors.com/property/elegant-5-bedroom-all-ensuite-villa-for-sale/,1
 https://glorealtors.com/property/5-bedroom-villa-for-sale-in-miotoni/,85000000.0,5,False,Karen,For Sale,Villa
 https://glorealtors.com/property/five-bedroom-ensuite-villa/,135000000.0,6,False,Karen,For Sale,Villa
 https://glorealtors.com/property/exquisite-4-bedroom-townhouse/,67000000.0,4,False,Karen,For Sale,Townhouse
+house_href,house_price,house_location,furnished,service_type,property_type,bed_rooms
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-spring-valley-3661767,150000.0,"Spring Valley, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3661735,350000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-riverside-3661728,270000.0,"Riverside, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kileleshwa-3661199,150000.0,Kileleshwa,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-rhapta-road-3661731,320000.0,"Rhapta Road, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-riara-road-3661753,200000.0,Riara Road,False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-riara-road-3661763,200000.0,Riara Road,False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-apartment-for-rent-westlands-area-3661748,649000.0,"Westlands Area, Westlands",True,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3661744,350000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kilimani-3660483,14300000.0,Kilimani,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-kilimani-3660855,9100000.0,Kilimani,False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-townhouse-for-sale-lavington-3661192,68000000.0,Lavington,False,Sale,Townhouses,4
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-kilimani-3660459,120000.0,Kilimani,False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3660840,220000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-riverside-3659326,20244000.0,"Riverside, Westlands",False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-muthaiga-3660367,190000.0,Muthaiga,False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-sale-riverside-3659733,21000000.0,"Riverside, Westlands",False,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-riverside-3661654,15400000.0,"Riverside, Westlands",False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-kileleshwa-3659712,21500000.0,Kileleshwa,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-riverside-3659746,31000000.0,"Riverside, Westlands",False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-westlands-area-3659393,7800000.0,"Westlands Area, Westlands",False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-runda-3658639,390000.0,"Runda, Westlands",False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-sale-westlands-area-3659035,11500000.0,"Westlands Area, Westlands",False,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-townhouse-for-rent-kiambu-road-3658695,300000.0,Kiambu Road,True,Rent,Townhouses,4
+https://www.buyrentkenya.com/listings/5-bedroom-townhouse-for-rent-rosslyn-3658615,570000.0,"Rosslyn, Westlands",False,Rent,Townhouses,5
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-rosslyn-3658299,350000.0,"Rosslyn, Westlands",False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kilimani-3658319,120000.0,Kilimani,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3658165,240000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-westlands-area-3658017,250000.0,"Westlands Area, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-kileleshwa-3658013,5000000.0,Kileleshwa,False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-spring-valley-3657613,430000.0,"Spring Valley, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-spring-valley-3657577,350000.0,"Spring Valley, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-westlands-area-3657987,365000.0,"Westlands Area, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kileleshwa-3657906,320000.0,Kileleshwa,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3657639,240000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-runda-3657126,270000.0,"Runda, Westlands",False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-parklands-3657304,300000.0,"Parklands, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-lavington-3657074,250000.0,Lavington,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-sale-runda-3657063,75000000.0,"Runda, Westlands",False,Sale,Houses,5
+https://www.buyrentkenya.com/listings/1-bedroom-townhouse-for-rent-runda-3657065,165000.0,"Runda, Westlands",False,Rent,Townhouses,1
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-runda-3657078,390000.0,"Runda, Westlands",False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/5-bedroom-townhouse-for-rent-lavington-3657593,200000.0,Lavington,False,Rent,Townhouses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3657076,140000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-riverside-3655555,270000.0,"Riverside, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-lavington-3657059,130000.0,Lavington,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-sale-kilimani-3655607,12500000.0,Kilimani,False,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-runda-3655798,400000.0,"Runda, Westlands",False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kilimani-3657087,160000.0,Kilimani,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/3-bedroom-townhouse-for-rent-kitisuru-3656471,615000.0,"Kitisuru, Westlands",False,Rent,Townhouses,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-muthaiga-3655513,300000.0,Muthaiga,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-sale-kilimani-3655560,17500000.0,Kilimani,True,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3653216,190000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-sale-kilimani-3651609,19000000.0,Kilimani,True,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-general-mathenge-3653533,250000.0,"General Mathenge, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-apartment-for-rent-general-mathenge-3651579,330000.0,"General Mathenge, Westlands",True,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-westlands-area-3652135,180000.0,"Westlands Area, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-lavington-3652656,150000.0,Lavington,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-parklands-3651088,320000.0,"Parklands, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-karen-3652660,250000.0,Karen,False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3651564,220000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-sale-mombasa-road-3649477,55000000.0,Mombasa Road,True,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-5-bedroom-townhouse-for-sale-muthaiga-3651578,600000000.0,Muthaiga,True,Sale,Townhouses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3649791,250000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-apartment-for-rent-karura-3648936,650000.0,"Karura, Westlands",True,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-sale-nyari-3649420,220000000.0,"Nyari, Westlands",False,Sale,Houses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-mombasa-road-3649551,500000.0,Mombasa Road,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-sale-kileleshwa-3649470,38000000.0,Kileleshwa,True,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-runda-3648616,430000.0,"Runda, Westlands",False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-sale-karen-3648731,75000000.0,Karen,False,Sale,Houses,4
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-karen-3648760,300000.0,Karen,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3648543,200000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-karen-3648712,400000.0,Karen,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-parklands-3604710,200000.0,"Parklands, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-karen-3646988,400000.0,Karen,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-house-for-rent-karen-3648100,330000.0,Karen,True,Rent,Houses,4
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-westlands-area-3646957,8000000.0,"Westlands Area, Westlands",False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3646946,120000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-karen-3646983,320000.0,Karen,False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-karen-3648085,350000.0,Karen,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3646909,180000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3646912,140000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3646341,180000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kilimani-3646845,220000.0,Kilimani,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3644797,220000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-lavington-3646190,220000.0,Lavington,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3646264,180000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-brookside-3645310,300000.0,"Brookside, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-riverside-3642886,150000.0,"Riverside, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-5-bedroom-house-for-rent-karen-3644024,700000.0,Karen,True,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3644000,300000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kilimani-3643878,130000.0,Kilimani,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3639883,180000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-kilimani-3639924,90000.0,Kilimani,False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-westlands-area-3639484,110000.0,"Westlands Area, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kilimani-3640096,160000.0,Kilimani,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3638261,250000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-townhouse-for-sale-lavington-3639900,185000000.0,Lavington,True,Sale,Townhouses,4
+https://www.buyrentkenya.com/listings/5-bedroom-villa-for-rent-lavington-3639394,420000.0,Lavington,False,Rent,Villas,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-rhapta-road-3638249,220000.0,"Rhapta Road, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3638477,350000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-townhouse-for-sale-lavington-3639444,185000000.0,Lavington,True,Sale,Townhouses,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-rhapta-road-3638236,160000.0,"Rhapta Road, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3639386,220000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-parklands-3637707,140000.0,"Parklands, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-parklands-3636564,280000.0,"Parklands, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-apartment-for-sale-general-mathenge-3637731,95000000.0,"General Mathenge, Westlands",True,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3637877,170000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-spring-valley-3638155,150000.0,"Spring Valley, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3636116,180000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-rent-westlands-area-3633730,70000.0,"Westlands Area, Westlands",False,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-rhapta-road-3638188,160000.0,"Rhapta Road, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kileleshwa-3635200,250000.0,Kileleshwa,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-karen-3635034,450000.0,Karen,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-brookside-3634345,95000.0,"Brookside, Westlands",False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-rent-westlands-area-3633727,75000.0,"Westlands Area, Westlands",False,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3636603,250000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kileleshwa-3633544,200000.0,Kileleshwa,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-general-mathenge-3636633,220000.0,"General Mathenge, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3634061,180000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-lavington-3633529,21000000.0,Lavington,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3632426,160000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kileleshwa-3633592,180000.0,Kileleshwa,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-kilimani-3632434,5800000.0,Kilimani,False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/4-bedroom-villa-for-rent-runda-3632809,250000.0,"Runda, Westlands",False,Rent,Villas,4
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kilimani-3631293,200000.0,Kilimani,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kileleshwa-3631808,120000.0,Kileleshwa,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3632139,140000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-brookside-3631308,230000.0,"Brookside, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-kilimani-3631790,230000.0,Kilimani,True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-villa-for-rent-karen-hardy-3633198,250000.0,Karen Hardy,False,Rent,Villas,5
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-runda-3632340,400000.0,"Runda, Westlands",False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3632421,220000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-townhouse-for-rent-westlands-area-3629074,290000.0,"Westlands Area, Westlands",True,Rent,Townhouses,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-kilimani-3630190,120000.0,Kilimani,False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3630049,300000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-lavington-3630057,150000.0,Lavington,False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3629315,150000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-townhouse-for-rent-kileleshwa-3630082,350000.0,Kileleshwa,False,Rent,Townhouses,4
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-riverside-3630080,180000.0,"Riverside, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3628511,220000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-karura-3628621,295000.0,"Karura, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-karura-3628627,50000000.0,"Karura, Westlands",False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3629033,280000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/1-bedroom-house-for-rent-nyari-3626681,100000.0,"Nyari, Westlands",False,Rent,Houses,1
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-lavington-3628395,21000000.0,Lavington,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3626956,200000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-lavington-3628432,25000000.0,Lavington,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-house-for-rent-nyari-3626658,160000.0,"Nyari, Westlands",True,Rent,Houses,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3626353,190000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-general-mathenge-3626555,145000.0,"General Mathenge, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-riverside-3626672,150000.0,"Riverside, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/4-bedroom-house-for-rent-lavington-3626391,247000.0,Lavington,False,Rent,Houses,4
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-rent-lavington-3626622,250000.0,Lavington,False,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-riverside-3625349,190000.0,"Riverside, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-westlands-area-3624240,8000000.0,"Westlands Area, Westlands",False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-studio-apartment-for-rent-lavington-3624883,120000.0,Lavington,True,Rent,Apartments,0
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3622897,220000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-riverside-3625375,190000.0,"Riverside, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3623296,160000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kitisuru-3618597,230000.0,"Kitisuru, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-parklands-3623740,250000.0,"Parklands, Westlands",False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-rent-spring-valley-3621001,400000.0,"Spring Valley, Westlands",False,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-spring-valley-3619688,280000.0,"Spring Valley, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/6-bedroom-villa-for-sale-karen-3619912,90000000.0,Karen,False,Sale,Villas,6
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3621065,350000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-villa-for-sale-kitisuru-3619147,130000000.0,"Kitisuru, Westlands",False,Sale,Villas,5
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-sale-karen-hardy-3620936,112500000.0,Karen Hardy,False,Sale,Houses,5
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-rent-general-mathenge-3619138,450000.0,"General Mathenge, Westlands",False,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-house-for-rent-runda-3619136,140000.0,"Runda, Westlands",True,Rent,Houses,1
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-kileleshwa-3619334,110000.0,Kileleshwa,True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-rent-kileleshwa-3618500,210000.0,Kileleshwa,False,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-muthaiga-3618461,760000.0,Muthaiga,False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-parklands-3618680,200000.0,"Parklands, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-karura-3618458,41000000.0,"Karura, Westlands",False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-parklands-3618235,280000.0,"Parklands, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-4-bedroom-apartment-for-rent-karura-3618453,550000.0,"Karura, Westlands",True,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3617980,280000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-villa-for-rent-lavington-3616450,350000.0,Lavington,False,Rent,Villas,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-lavington-3616559,260000.0,Lavington,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kitisuru-3616645,250000.0,"Kitisuru, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kileleshwa-3617948,28000000.0,Kileleshwa,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-sale-kilimani-3615139,16800000.0,Kilimani,True,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-townhouse-for-rent-westlands-area-3614909,400000.0,"Westlands Area, Westlands",False,Rent,Townhouses,4
+https://www.buyrentkenya.com/listings/1-bedroom-apartment-for-sale-kilimani-3614956,10200000.0,Kilimani,False,Sale,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3615099,220000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-lavington-3615111,25700000.0,Lavington,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kilimani-3615167,18700000.0,Kilimani,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-house-for-rent-nyari-3612733,350000.0,"Nyari, Westlands",False,Rent,Houses,5
+https://www.buyrentkenya.com/listings/4-bedroom-townhouse-for-sale-runda-3613865,50000000.0,"Runda, Westlands",False,Sale,Townhouses,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3611226,220000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-house-for-rent-riverside-3613188,150000.0,"Riverside, Westlands",True,Rent,Houses,1
+https://www.buyrentkenya.com/listings/4-bedroom-townhouse-for-rent-lavington-3611447,350000.0,Lavington,False,Rent,Townhouses,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3610964,220000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-rent-riverside-3610327,650000.0,"Riverside, Westlands",False,Rent,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3610592,220000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/4-bedroom-villa-for-rent-lavington-3610645,350000.0,Lavington,False,Rent,Villas,4
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-lavington-3608032,24500000.0,Lavington,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3610329,150000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-westlands-area-3609008,140000.0,"Westlands Area, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-westlands-area-3608844,160000.0,"Westlands Area, Westlands",True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-rhapta-road-3606920,320000.0,"Rhapta Road, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/5-bedroom-townhouse-for-sale-lavington-3609619,55000000.0,Lavington,False,Sale,Townhouses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3607706,190000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-apartment-for-rent-riverside-3607736,300000.0,"Riverside, Westlands",True,Rent,Apartments,3
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kileleshwa-3603783,23000000.0,Kileleshwa,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3606578,170000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-rent-kileleshwa-3603103,110000.0,Kileleshwa,False,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kileleshwa-2-3601797,20000000.0,Kileleshwa,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-kileleshwa-3602402,25500000.0,Kileleshwa,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-3-bedroom-house-for-rent-rosslyn-3602160,180000.0,"Rosslyn, Westlands",True,Rent,Houses,3
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kileleshwa-3606635,140000.0,Kileleshwa,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/5-bedroom-villa-for-rent-lavington-3602778,300000.0,Lavington,False,Rent,Villas,5
+https://www.buyrentkenya.com/listings/5-bedroom-townhouse-for-sale-lavington-3602190,95000000.0,Lavington,False,Sale,Townhouses,5
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kilimani-3-3600092,300000.0,Kilimani,True,Rent,Apartments,2
+https://www.buyrentkenya.com/listings/7-bedroom-house-for-sale-thigiri-2-3592756,225000000.0,"Thigiri, Westlands",False,Sale,Houses,7
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-kileleshwa-2-3601511,25000000.0,Kileleshwa,False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/furnished-1-bedroom-apartment-for-rent-riverside-1-3588749,140000.0,"Riverside, Westlands",True,Rent,Apartments,1
+https://www.buyrentkenya.com/listings/4-bedroom-apartment-for-sale-spring-valley-2-3592347,74000000.0,"Spring Valley, Westlands",False,Sale,Apartments,4
+https://www.buyrentkenya.com/listings/3-bedroom-apartment-for-sale-kileleshwa-2-3599187,19800000.0,Kileleshwa,False,Sale,Apartments,3
+https://www.buyrentkenya.com/listings/2-bedroom-apartment-for-sale-kilimani-2-3591440,10800000.0,Kilimani,False,Sale,Apartments,2
+https://www.buyrentkenya.com/listings/furnished-2-bedroom-apartment-for-rent-kitisuru-1-3590974,200000.0,"Kitisuru, Westlands",True,Rent,Apartments,2
