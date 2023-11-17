@@ -13,7 +13,7 @@ def hello():
     return {"message": "Welcome to the Manage property service!"}
 
 @router.post("/process_query", status_code = 200)
-def buy_property(user_input: str):
+def manage_property(user_input: str):
     try:
         response = service.reply_to_manage_property_inquiries(user_input)
         return {"message": response}
