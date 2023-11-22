@@ -1,9 +1,5 @@
-import os 
-import openai
 import json 
-import time 
 import logging
-from openai import RateLimitError
 from helpers.config import buy_data_path
 from helpers.function_descriptions import buy_property_function_descriptions
 from helpers.prompt_templates import buy_system_prompt

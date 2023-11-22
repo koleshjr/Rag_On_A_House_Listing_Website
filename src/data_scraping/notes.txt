@@ -1,0 +1,10 @@
+set your spiders as standard python files
+crontab - e
+    check python path -> which python3 
+          /home/koleshjr/miniconda3/envs/devgeniai/bin/python3
+    add the py file path of your scraping file 
+         /home/koleshjr/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data_scraping/glo/glo/spiders/glorealtors.py
+
+
+    it becomes:(running after every 4 hours)
+    0 */4 * * * /home/koleshjr/miniconda3/envs/devgeniai/bin/python3 /home/koleshjr/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data_scraping/glo/glo/spiders/glorealtors.py
