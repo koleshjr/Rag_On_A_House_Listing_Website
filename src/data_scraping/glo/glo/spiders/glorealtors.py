@@ -64,7 +64,7 @@ def main():
 
     # # Specify the output file path
     home_path = os.path.expanduser("~")
-    output_file_path = f"{home_path}/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data/outputs.csv"
+    output_file_path = f"{home_path}/Desktop/personal_projects/Rag_On_A_House_Listing_Website/src/data/glorealtors.csv"
 
     # Set up Scrapy settings
     settings = Settings()

@@ -1,9 +1,5 @@
-import os 
-import openai
 import json 
-import time 
 import logging
-from openai import RateLimitError
 from helpers.function_descriptions import list_property_function_descriptions
 from helpers.prompt_templates import list_system_prompt
 from helpers.utils import get_completion_from_messages, get_list_property_info, get_user_info, confirm_house_info, confirm_user_info, error_handling

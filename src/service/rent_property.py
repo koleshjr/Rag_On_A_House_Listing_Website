@@ -1,9 +1,5 @@
-import os 
-import openai
 import json 
-import time 
 import logging
-from openai import RateLimitError
 from helpers.config import rent_data_path
 from helpers.function_descriptions import rent_property_function_descriptions
 from helpers.prompt_templates import rent_system_prompt

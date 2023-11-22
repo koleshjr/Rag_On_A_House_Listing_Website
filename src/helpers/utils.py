@@ -4,8 +4,8 @@ import pandas as pd
 import json 
 import logging
 import requests
-from openai import OpenAI
-from openai import RateLimitError
+import openai
+from openai.error import RateLimitError
 from dotenv import load_dotenv
 from helpers.config import record_data_path, glo_data_path, buy_rent_path
 from helpers.prompt_templates import property_all_template, property_not_all_template, user_details_confirmation_prompt, house_details_confirmation_prompt, extract_user_query_prompt
@@ -14,9 +14,10 @@ from helpers.prompt_templates import property_all_template, property_not_all_tem
 def load_openai_model():
     """ Prepare OpenAI model for use """
     load_dotenv()
-    client = OpenAI(
-        api_key = os.getenv("OPENAI_API_KEY"))
-    return client
+    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = openai_api_key
+    return openai
+
 
 def get_completion_from_messages(
         messages: list ,
@@ -28,7 +29,7 @@ def get_completion_from_messages(
     openai = load_openai_model()
     for i in range(3):
         try:
-            response = openai.chat.completions.create(
+            response = openai.ChatCompletion.create(
                 model = model,
                 messages = messages,
                 temperature = temperature,
@@ -38,10 +39,11 @@ def get_completion_from_messages(
             return response.choices[0].message
         except RateLimitError as e:
             #log this error using logger 
-            logging.error(f"RateLimitError: {e}")
+            logging.error(f"RateLimitError(get_completions): {e}")
             time.sleep(5)
             if i == 2:
-                return {"content": "Thank you for visiting Glo realtors assistant. We are sorry for the inconvenience. Please try again later."}
+                return {"content": "Thank you for visiting Devgeni's assistant. We are sorry for the inconvenience. Please try again later."}
+
 
 def parse_query_results(prompt: str, model: str = "gpt-3.5-turbo-1106"):
     """ Summarize conversation """
