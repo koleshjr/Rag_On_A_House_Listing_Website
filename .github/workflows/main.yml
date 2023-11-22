@@ -24,7 +24,7 @@ jobs:
         docker buildx create --use
         docker buildx build \
           --file Dockerfile \
-          --tag <koleshjr>/<rag_on_a_house_listing_website>:latest \
+          --tag koleshjr/rag_on_a_house_listing_website:latest \
           --push .
 
     env:
